@@ -8,7 +8,7 @@ from sqlalchemy.orm import sessionmaker
 
 DBI = "postgresql+psycopg2://richard@localhost:5432/testfigure"
 
-IMPORT_PATH = "/Users/richard/Downloads/datasets"
+IMPORT_PATH = "csv"
 
 engine = create_engine(DBI)
 
